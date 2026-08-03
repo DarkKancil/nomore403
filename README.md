@@ -478,16 +478,6 @@ You can customize these files to fit your targets or workflow.
 - some techniques depend on target-specific behavior and may appear noisy on heavily normalized stacks
 - `curl`-based techniques require `curl` in `PATH`
 
-## Security and Responsible Use
-
-Use this tool only on systems you are authorized to test.
-
-The authors and contributors are not responsible for misuse. You are responsible for complying with applicable law, program rules, and organizational policy.
-
-## Contributing
-
-Contributions are welcome.
-
 Useful contribution areas include:
 
 - bug fixes
@@ -496,13 +486,3 @@ Useful contribution areas include:
 - raw HTTP improvements
 - frontend fingerprinting
 - documentation and examples
-
-Before contributing a technique, prefer:
-
-- a clearly distinct parsing or trust-boundary behavior
-- reproducible evidence
-- tests that verify the request shape or replay behavior
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE).
